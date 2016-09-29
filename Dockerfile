@@ -25,6 +25,6 @@ COPY index.js /app/
 COPY scripts.js /app/
 
 # Expose application server port
-EXPOSE 8000
+# EXPOSE 8000
 
 CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf", "-n"]
