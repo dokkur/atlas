@@ -4,3 +4,4 @@ heapdump-*
 logs
 uploads
 .idea
+*.swp
